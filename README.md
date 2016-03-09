@@ -31,8 +31,10 @@ Usage
     /* Optional
     'hint'      => 'Must be greater than or equal to 6',
     'pluginOptions' => [
+        // Custom icons
         'iconShow' => '<i class="fa fa-eye"></i>',
         'iconHide' => '<i class="fa fa-eye-slash"></i>',
+        // Custom titles
         'titleShow' => 'Show',
         'titleHide' => 'Hide'
     ]
