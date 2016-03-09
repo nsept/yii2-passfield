@@ -27,15 +27,15 @@ Usage
 <?= \nsept\passfield\PassfieldWidget::widget([
     'form'      => $form,
     'model'     => $model,
-    /* 'hint'      => 'Must be greater than or equal to 6', */
     'attribute' => 'password',
+    /* Optional
+    'hint'      => 'Must be greater than or equal to 6',
     'pluginOptions' => [
-        /*
         'iconShow' => '<i class="fa fa-eye"></i>',
         'iconHide' => '<i class="fa fa-eye-slash"></i>',
         'titleShow' => 'Show',
         'titleHide' => 'Hide'
-        */
     ]
+    */
 ]) ?>
 ```
