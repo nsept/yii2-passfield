@@ -28,8 +28,6 @@ Usage
     'form'      => $form,
     'model'     => $model,
     'attribute' => 'password',
-    /* Optional
-    'hint'      => 'Must be greater than or equal to 6',
     'pluginOptions' => [
         // Custom icons
         'iconShow' => '<i class="fa fa-eye"></i>',
@@ -38,6 +36,5 @@ Usage
         'titleShow' => 'Show',
         'titleHide' => 'Hide'
     ]
-    */
 ]) ?>
 ```
